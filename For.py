@@ -5,5 +5,16 @@ quantidades = [5, 7, 5, 9, 4]
 for indice, produto in enumerate(produtos):
     preco = precos[indice]
     quantidade = quantidades[indice]
-    print(f"O produto {produto} custa R${preco}.")
-
+    subtotal = quantidade * preco
+    
+    mensagem = f"""
+-----------------------------------
+Produto: {produto}
+Quantidade: {quantidade}
+Valor unitário: R${preco:.2f}
+Subtotal: R${subtotal:.2f}
+-----------------------------------
+"""
+    
+    print(mensagem)
+    
