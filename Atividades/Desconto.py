@@ -12,7 +12,7 @@ if valor >= 100:
 #   valor = valor * 0.95
 #   print("Valor com desconto:", valor)
 
-elif valor > 100 and valor <= 299.00
+elif valor > 100 and valor <= 299.00:
     desconto = 0.90
     # total = valor * desconto
 # print("Valor total foi de:", total)
